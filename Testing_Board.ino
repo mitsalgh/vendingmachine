@@ -28,10 +28,10 @@ void setup() {
 void loop() 
 {
    analogWrite(rpwm1, 0);
-   analogWrite(lpwm1, 100);
+   analogWrite(lpwm1, 255);
    Serial.println("buka");
    delay(750);
-   analogWrite(rpwm1, 150);
+   analogWrite(rpwm1, 255);
    analogWrite(lpwm1, 0);
    Serial.println("tutup");
    delay(550); 
