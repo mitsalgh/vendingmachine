@@ -14,7 +14,7 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 int relayBawah[5] = {3, 5, 7, 9, 11}; // setup pin untuk Relay yang akan disetting di bawah
 
-const int stepsPerRevolution = 50;
+const int stepsPerRevolution = 100;
 Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);
 
 
