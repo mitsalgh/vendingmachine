@@ -183,7 +183,7 @@ void prosesBuka()
 //      delay(500);
 //      myStepper.step(stepsPerRevolution);
 //      delay(200);
-     analogWrite(pinMotor, 254);
+     analogWrite(pinMotor, 255);
      delay(delayOpen);
      analogWrite(pinMotor, 0);
      delay(500);
@@ -196,7 +196,7 @@ void prosesBuka()
 void prosesBukaManual()
 {
   
-  analogWrite(pinMotor, 250);
+  analogWrite(pinMotor, 255);
   delay(100);
 //  analogWrite(pinMotor, 0);
 //   delay(500);
